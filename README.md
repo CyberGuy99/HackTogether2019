@@ -2,7 +2,7 @@
 Find better name later
 
 Options:
-    o Organization/Club
-    o Places/Scenery
-    o Current Events (i.e. parties)
-    o Restaurants
+    * Organization/Club
+    * Places/Scenery
+    * Current Events (i.e. parties)
+    * Restaurants

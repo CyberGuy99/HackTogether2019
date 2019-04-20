@@ -24,7 +24,12 @@ router.get('/restaurants', (req, res) => {
 	res.sendFile(path.join(__dirname+'/public/restaurant.html'));
 });
 
+router.get('/createnew', (req, res) => {
+	res.sendFile(path.join(__dirname+'/public/create-new-restaurant.html'));
+});
+
 app.use('/', router);
-app.use(express.static('src'))
+app.use(express.static('src'));
+app.use(express.static('public'));
 app.listen(3000);
 console.log('Running on port 3000');

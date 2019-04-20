@@ -1,0 +1,26 @@
+{
+  "name": "whattodo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CyberGuy99/WhatToDo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CyberGuy99/WhatToDo/issues"
+  },
+  "homepage": "https://github.com/CyberGuy99/WhatToDo#readme",
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "express": "^4.16.4",
+    "mongodb": "^3.2.3"
+  }
+}

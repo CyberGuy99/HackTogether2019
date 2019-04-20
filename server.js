@@ -5,25 +5,26 @@ const app = new express();
 const router = express.Router();
 
 router.get('/', (req, res) => {
-	res.sendFile(path.join(__dirname+'/index.html'));
+	res.sendFile(path.join(__dirname+'/public/index.html'));
 });
 
 router.get('/orgs', (req, res) => {
-	res.sendFile(path.join(__dirname+'/org.html'));
+	res.sendFile(path.join(__dirname+'/public/org.html'));
 });
 
 router.get('/parties', (req, res) => {
-	res.sendFile(path.join(__dirname+'/party.html'));
+	res.sendFile(path.join(__dirname+'/public/party.html'));
 });
 
 router.get('/events', (req, res) => {
-	res.sendFile(path.join(__dirname+'/events.html'));
+	res.sendFile(path.join(__dirname+'/public/events.html'));
 });
 
 router.get('/restaurants', (req, res) => {
-	res.sendFile(path.join(__dirname+'/restaurant.html'));
+	res.sendFile(path.join(__dirname+'/public/restaurant.html'));
 });
 
 app.use('/', router);
+app.use(express.static('src'))
 app.listen(3000);
 console.log('Running on port 3000');

@@ -5,31 +5,93 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<title>What to do</title>
 	</head>
-
+	
 	<body>
 		<h1>
-			<p>Restaurants around campus</p>
-		</h1>
-		<h2>
-			<span class="welcome">Reviews from students</span>
-		</h2>
+			<b>Restaurants</b>
+			<br />			
+			<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+	body {
+ 		 font-family: Arial;
+}
 
-		<nav>
-			<a class="link" href="/">Home</a>
-			<a class="link" href="/orgs">Student Organizations </a>
-			<a class="link" href="/events">Campus Events </a>
-			<a class="link" href="/parties">Parties</a><hr>
-		</nav>
+* {
+ 		 box-sizing: border-box;
+}
+}
 
-		<section>
-			<h4>Chinese</h4><a href="/createnew">Add new Restaurant</a>
-			<div>
-				
-			</div>
-			<h4>Indian</h4><a href="/createnew">Add new Restaurant</a>
-			<h4>Japanese</h4><a href="/createnew">Add new Restaurant</a>
-			<h4>American</h4><a href="/createnew">Add new Restaurant</a>
-		</section>
+	form.example button {
+ 		float: left;
+  		width: 100%;
+  		padding: 10px;
+  		background: #2196F3;
+  		color: white;
+  		font-size: 17px;
+  		border: 1px solid grey;
+  		border-left: none;
+  		cursor: pointer;
+}
+
+	form.example button:hover {
+  		background: #0b7dda;
+}
+
+	form.example::after {
+  		content: "";
+  		clear: both;
+  		display: table;
+}
+div.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+	</style>
+	</head>
+	<body>
+  	<input type="text" placeholder="Search.." name="search2">
+	  <button  type="submit"><i class="fa fa-search"></i></button>
+	</form>
+	</body>
+
+</html> 
+		<div class="scrollmenu">
+ 			<a href="/">Home</a>
+  			<a href="/events">Campus Events</a>
+  			<a href="/orgs">Organizations</a>
+  			<a href="/parties">Parties</a>
+  		</div>
+
+		<button class="btn default">Make Review</button>
+		<h3>Chinese</h3>
+
+		<h3>Japanese</h3>
+		<img src="pics/348s.jpg" alt="Alpha" width="300" height="200">
+		<img src="pics/ls.jpg" alt="Alpha" width="300" height="200">
+			<br />
+			<b><a href="/review">Don's Japanese Kitchen</a></b>
+			<i>Rating: 2.6 out of 5</i>
+			<br />
+			<ins>Top review: Went to a party and realized how creepy they were. House was depressing and there were no other girls.</ins>
+			<p>------------------------------------------------------------------------------------------</p>
+		<h3>American</h3>	
 	</body>
 
 </html>

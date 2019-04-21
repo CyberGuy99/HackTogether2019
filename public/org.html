@@ -46,6 +46,23 @@
   		clear: both;
   		display: table;
 }
+div.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
 	</style>
 	</head>
 	<body>
@@ -55,6 +72,12 @@
 	</body>
 
 </html> 
+		<div class="scrollmenu">
+ 			<a href="/">Home</a>
+  			<a href="/restaurants">Restaurants</a>
+  			<a href="events">Campus Events</a>
+  			<a href="/parties">Parties</a>
+  		</div>
 
 			 <button class="btn default">Make Review</button>
 			 <button class="btn default">Add Event</button>
@@ -63,14 +86,14 @@
 			<br />
 			<img src="pics/Ieee_blue.jpg" alt="IEEE Logo" width="300" height="100">
 			<br />
-			<b>Institute of Electrical and Electronics Engineers</b>
+			<b><a href="https://ieee.ece.utexas.edu" target="_blank">Institute of Electrical and Electronics Engineers</a></b>
 			<i>Rating: 4.5 out of 5</i>
 			<br />
 			<ins>Top review: This is a professional organization for ECE majors. They focus more on company outreach for students.</ins>
 			<p>------------------------------------------------------------------------------------------</p>
 			<img src="pics/logo.png" alt="CAD Logo" width="250" height="200">
 			<br />
-			<b>Coding Across Discipline</b>
+			<b><a href="https://cadtexas.com" target="_blank">Coding Across Discipline</a></b>
 			<i>Rating: 4.2 out of 5</i>
 			<br />
 			<ins>Top review: This is a friendly environment to learn how to code. I learned a lot here.</ins>
@@ -78,7 +101,7 @@
 			<p>------------------------------------------------------------------------------------------</p>
 			<img src="pics/convergent.png" alt="CAD Logo" width="250" height="200">
 			<br />
-			<b>Texas Convergent</b>
+			<b><a href="http://www.txconvergent.org" target="_blank">Texas Convergent</a></b>
 			<i>Rating: 4.0 out of 5</i>
 			<br />
 			<ins>Top review: This organization is great for combining business and engineering skills .</ins>

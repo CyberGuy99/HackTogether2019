@@ -24,9 +24,12 @@ router.get('/restaurants', (req, res) => {
 	res.sendFile(path.join(__dirname+'/public/restaurant.html'));
 });
 
-router.get('/createnew', (req, res) => {
-	res.sendFile(path.join(__dirname+'/public/create-new-restaurant.html'));
+router.get('/review', (req, res, err) => {
+	if (err)
+		console.log(err);
+	res.sendFile(path.join(__dirname+'/public/review.html'));
 });
+
 
 app.use('/', router);
 app.use(express.static('src'));

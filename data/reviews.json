@@ -1,10 +1,20 @@
 {
-    [
-        "rating": 5,
+    "reviews": [
+    	{
+    	"rating": 5,
         "subject": "Don's Japanese Kitchen",
         "text": "Very simple place but food taste super good.",
         "subject-type": "Restaurant",
         "author": "Guest"
+    	},
+
+    	{
+    	"rating": 5,
+        "subject": "Don's Japanese Kitchen",
+        "text": "Great place for some cheap seafood. Food was really good and definitely something I would come back for. Price was very good, spent $20 for two meals and a fish cake. Only problem was the long wait. Was a little detoured when I saw the line to the door, but made me think the food was really good and that was definitely the case. Will likely be back soon!",
+        "subject-type": "Restaurant",
+        "author": "Guest"
+    	}
     ]
 }
 

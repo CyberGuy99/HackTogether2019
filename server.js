@@ -38,5 +38,6 @@ router.get('/review', (req, res, err) => {
 app.use('/', router);
 app.use(express.static('src'));
 app.use(express.static('public'));
-app.listen(3000);
-console.log('Running on port 3000');
+const PORT = process.env.PORT || 3000
+app.listen(PORT);
+console.log('Running on port ' + PORT);

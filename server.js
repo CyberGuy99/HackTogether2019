@@ -24,6 +24,10 @@ router.get('/restaurants', (req, res) => {
 	res.sendFile(path.join(__dirname+'/public/restaurant.html'));
 });
 
+router.get('/contact', (req, res) => {
+	res.sendFile(path.join(__dirname+'/public/contact.html'));
+});
+
 router.get('/review', (req, res, err) => {
 	if (err)
 		console.log(err);

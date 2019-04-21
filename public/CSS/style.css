@@ -79,6 +79,27 @@ header .highlight,  main-header .current a{
   font-size:20px;
 }
 
+/* Newsletter */
+#newsletter{
+  padding:15px;
+  color:#ffffff;
+  background:#35424a
+}
+
+#newsletter h1{
+  float:left;
+}
+
+#newsletter form {
+  float:right;
+  margin-top:15px;
+}
+
+#newsletter input[type="email"]{
+  padding:4px;
+  height:25px;
+  width:250px;
+}
 
 .box-1{
 	background: url('org.jpg') no-repeat;
@@ -97,14 +118,10 @@ header .highlight,  main-header .current a{
 	float: left;
 	margin-left: 2%;
 
+
+
 	}
 
-.box-1 h3{
-	font-family:Tahoma;
-	font-weight:800	;
-	font-style:italic;
-	text-decoration: bold;
-}
 
 .box-2{
 	width:42%;
@@ -146,23 +163,36 @@ header .highlight,  main-header .current a{
 	margin-top: 1%;
 }
 
+.box-1 h3{
+	font-size:40px;
+	margin-top:25%;
+	margin-left:10%;
+	font-style:italic;
+	text-decoration: bold;
+	color: black;
+
+}
+
 .box-2 h4{
-	font-family:Tahoma;
-	font-weight:800;
+	font-size:40px;
+	margin-top: 25%;
+	margin-left: 35%;
 	font-style:italic;
 	text-decoration: bold;
 }	
 
 .box-3 h5{
-	font-family:Tahoma;
-	font-weight:800;
+	font-size:40px;
+	margin-top: 25%;
+	margin-left:15%;
 	font-style:italic;
 	text-decoration: bold;
 }
 
 .box-4 h6{
-	font-family:Tahoma;
-	font-weight:800;
+	font-size:40px;
+	margin-top: 25%;
+	margin-left: 25%;
 	font-style:italic;
 	text-decoration: bold;
 }
